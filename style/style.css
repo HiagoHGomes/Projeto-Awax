@@ -344,6 +344,18 @@ header {
     cursor: default;
 }
 
+.bg-team {
+    background-image: url("../images/complementos/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team-area {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 0px;
+}
+
 
 
 
