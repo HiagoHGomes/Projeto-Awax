@@ -903,4 +903,171 @@ footer {
         color: #b28756;
     }
     
+    .section-aboutsus {
+        flex-direction: column;
+    }
+
+    .section-aboutsus--left {
+        margin: 0 30px 30px;
+        align-items: center;
+    }
+
+    .section-aboutsus--left .button {
+        margin-left: 300px;
+    }
+
+    .section-aboutsus--right {
+        width: auto;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+    /* .section-team {
+        max-width: 580px;
+    }
+
+    .map {
+        padding: 0 30px;
+
+    }
+
+    .area {
+        width: auto;
+    }
+
+    .info {
+        width: auto;
+    }
+
+    .item {
+        margin-bottom: 30px;
+    } */
+}
+
+
+
+@media (max-width: 450px) {
+    .logo {
+        margin-left: 30px;
+    }
+
+    .opener {
+        width: 40px;
+        margin-right: 30px;
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a{
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+
+    .menu li#active a{
+        border: none;
+        color: #b28756;
+    }
+
+    .menu li a:hover {
+        border-bottom: 0;
+        color: #b28756;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner h2 {
+        font-size: 17px;
+    }
+    
+    .section-aboutsus {
+        flex-direction: column;
+    }
+
+    .section-aboutsus--left {
+        margin: 0 30px 30px;
+        align-items: center;
+    }
+
+    .section-aboutsus--left .button {
+        margin-left: 85px;
+    }
+
+    .section-aboutsus--right {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-aboutsus--right img {
+        width: 100%;
+    }    
+
+    .section-projects-filters {
+        margin: 0 30px;
+    }
+
+    .section-projects--photo {
+        width: 320px;
+    }
+
+    .section-projects--photoarea {
+        width: 300px;
+        height: 190px;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+    .section-team {
+        width: 280px;
+    }
+
+    .map {
+        padding: 0;
+        padding-bottom: 250px;
+    }
+
+    .info {
+        width: 100%;
+    }
 }
